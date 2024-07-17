@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
-//@SpringBootTest
+@SpringBootTest
 class NumberRepositoryTest {
     @Autowired
     private NumberRepository underTest;
 
-   // @Test
+    @Test
     void testHeapSize() {
         //GIVEN
 
